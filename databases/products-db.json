@@ -25,57 +25,50 @@
   },
   {
     "id": 4,
-    "title": "Tênis",
-    "description": "Tênis novo, ideal para corridas e atividades físicas. Conforto e estilo garantidos.",
+    "title": "Sapato",
+    "description": "Sapato novo, ideal para o ambiente corporativo. Conforto e estilo garantidos.",
     "price": 100,
     "categoryId": 1,
     "ownerId": 2
   },
   {
     "id": 5,
-    "title": "Câmera",
-    "description": "Câmera nova com alta resolução e várias funcionalidades. Perfeita para fotógrafos amadores e profissionais.",
+    "title": "Bola",
+    "description": "Projetada para oferecer desempenho e durabilidade excepcionais em todos os tipos de campo.",
     "price": 500,
     "categoryId": 2,
     "ownerId": 2
   },
   {
     "id": 6,
-    "title": "Carro",
-    "description": "Carro seminovo em ótimo estado, com baixo quilometragem e todos os acessórios incluídos.",
+    "title": "Mochila",
+    "description": "Companheira perfeita para suas atividades diárias, oferecendo estilo, conforto e funcionalidade.",
     "price": 20000,
     "categoryId": 3,
     "ownerId": 2
   },
   {
     "id": 7,
-    "title": "Tênis",
-    "description": "Tênis novo, ideal para corridas e atividades físicas. Conforto e estilo garantidos.",
+    "title": "Headset",
+    "description": "Projetado para proporcionar um som imersivo e conforto durante longas sessões de jogo.",
     "price": 100,
     "categoryId": 1,
     "ownerId": 3
   },
   {
     "id": 8,
-    "title": "Câmera",
-    "description": "Câmera nova com alta resolução e várias funcionalidades. Perfeita para fotógrafos amadores e profissionais.",
+    "title": "Martelo",
+    "description": "Ferramenta essencial para qualquer caixa de ferramentas, seja para uso doméstico ou profissional.",
     "price": 500,
     "categoryId": 2,
     "ownerId": 3
   },
   {
     "id": 9,
-    "title": "Carro",
-    "description": "Carro seminovo em ótimo estado, com baixo quilometragem e todos os acessórios incluídos.",
+    "title": "Caneca",
+    "description": "Caneca personalizada de 350ml. Feita de cerâmica de alta qualidade, ela é perfeita para o seu café da manhã, chá da tarde ou qualquer bebida de sua preferência.",
     "price": 20000,
     "categoryId": 3,
     "ownerId": 3
-  },
-  {
-    "title": "Bola",
-    "description": "Uma bola de futebol.",
-    "price": 50,
-    "category": "Aparelho Eletrônico",
-    "id": 10
   }
 ]
