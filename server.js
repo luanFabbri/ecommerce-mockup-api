@@ -122,20 +122,27 @@ app.put("/categories/:id", (req, res) => {
     res.status(404).json({ message: "Categoria não encontrada" });
   }
 });
-
 // DELETE para remover uma categoria
 app.delete("/categories/:id", (req, res) => {
   const categoryId = parseInt(req.params.id);
+  const ownerId = parseInt(req.query.ownerId);
+
+  if (isNaN(ownerId)) {
+    return res
+      .status(400)
+      .json({ message: "ownerId é obrigatório e deve ser um número" });
+  }
+
   const categories = readJSONFile(categoryFilePath);
   const newCategories = categories.filter(
-    (category) => category.id !== categoryId
+    (category) => !(category.id === categoryId && category.ownerId === ownerId)
   );
 
   if (newCategories.length === categories.length) {
     res.status(404).json({ message: "Categoria não encontrada" });
   } else {
     writeJSONFile(categoryFilePath, newCategories);
-    res.status(204).end();
+    res.status(204).end(); // Apenas envia um status 204 No Content
   }
 });
 

@@ -14,7 +14,7 @@
   {
     "id": 3,
     "title": "Automóvel",
-    "description": "Veículo de transporte pessoal.",
+    "description": "Veículo de transporte pessoal. Desconsiderar barcos e aviões!",
     "ownerId": 1
   },
   {
